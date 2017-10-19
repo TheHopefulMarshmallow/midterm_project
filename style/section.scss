@@ -1,0 +1,68 @@
+$bcolor1: #ffab00;
+$bcolor2: #ffc400;
+$text1: 'Droid Sans', sans-serif;
+$color1: #4e1c07;
+$color2: #021d2c;
+$color3: #efe9d8;
+
+
+
+
+
+*{
+  text-align: left;
+}
+header, section, div, article{
+  width: 94%;
+}
+.header1, .site-title, .content1, .background1, .h1text, .highlighted, .writing1, .button1, .button2{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.header1{
+  background-color: $bcolor1;
+  height: 100%;
+}
+.site-title{
+  padding: 24px 22px 94px 21px;
+  height: 100%;
+}
+.content1{
+  background-color: $bcolor1;
+  height: 100%;
+}
+.background1{
+  background-image: url("background.jpeg");
+  height: 100%;
+}
+.h1text{
+  font-family: Lato-Black;
+  font-size: 36px;
+  color: #efe9d8;
+  width: 244px;
+  height: 153px;
+  letter-spacing: 1.8px;
+}
+.highlighted{
+  font-family: $text1;
+  font-size: 18px;
+  color: $color1;
+  letter-spacing: 0.9px;
+}
+.writing1{
+  font-family: DroidSerif-Regular;
+  font-size: 15px;
+  color: $color2;
+  letter-spacing: 0.8px;
+}
+
+.button1, .button2{
+  height: 100%;
+  background-color: #eb503c;
+  font-family: DroidSerif-Bold;
+  color: $color3;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.9px;
+}
