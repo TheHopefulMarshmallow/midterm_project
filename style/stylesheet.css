@@ -45,40 +45,60 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/*header*/
 * {
-  text-align: center; }
+  text-align: left; }
 
-body {
-  min-width: 320px; }
+header, section, div, article {
+  width: 94%; }
+
+.header1, .site-title, .content1, .background1, .h1text, .highlighted, .writing1, .button1, .button2 {
+  padding-left: 3%;
+  padding-right: 3%; }
+
+.header1 {
+  background-color: #ffab00;
+  height: 100%; }
 
 .site-title {
-  width: 100%;
-  height: 100%;
+  padding: 24px 22px 94px 21px;
+  height: 100%; }
+
+.content1 {
   background-color: #ffab00;
-  font-family: Lato-Regular;
-  color: #064159;
-  letter-spacing: 2.1px; }
+  height: 100%; }
 
-.main-homepage {
-  width: 100%;
-  height: 100%;
-  opacity: 0.9; }
+.background1 {
+  background-image: url("background.jpeg");
+  height: 100%; }
 
-.opening {
-  font-family: DroidSerif-Bold;
-  color: #4e1c07;
+.h1text {
+  font-family: Lato-Black;
+  font-size: 36px;
+  color: #efe9d8;
+  width: 244px;
+  height: 153px;
+  letter-spacing: 1.8px; }
+
+.highlighted {
+  font-family: "Droid Sans", sans-serif;
   font-size: 18px;
+  color: #4e1c07;
   letter-spacing: 0.9px; }
 
-.reg {
+.writing1 {
   font-family: DroidSerif-Regular;
   font-size: 15px;
+  color: #021d2c;
   letter-spacing: 0.8px; }
 
-.next-title {
-  font-size: 16px;
-  color: #eb503c;
-  letter-spacing: 0.8px; }
+.button1, .button2 {
+  height: 100%;
+  background-color: #eb503c;
+  font-family: DroidSerif-Bold;
+  color: #efe9d8;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.9px; }
 
 /*# sourceMappingURL=stylesheet.css.map */
